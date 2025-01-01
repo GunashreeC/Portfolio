@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunashree Channakeshava</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="icons/girl.png" alt="Profile Picture" class="profile-img">
+            <span class="name">Gunashree Channakeshava</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Home Section with Background Image -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Hey, I'm Gunashree Channakeshava</h1>
+            <p>A dedicated Web Developer with a focus on building and managing websites and web applications that drive the success of the entire product</p>
+            <a href="#projects" class="btn">Projects</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container1">
+
+            <div class="intro">
+                <h2>About Me</h2>
+                <p>I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that lead to the success of the overall product. Check out some of my work in the Projects section.</p>
+                <p>I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my LinkedIn and Github where I post useful content related to Web Development and Programming.</p> 
+            <!-- Skills Section -->
+            <div class="skills">
+                <h3 class="toggle-header" data-target="skills-content">Skills ☜</h3>
+                <ul id="skills-content" class="toggle-content">
+                    <li>UI/UX Design Principles</li>
+                    <li>HTML, CSS, and JavaScript</li>
+                    <li>React.js and Angular</li>
+                    <li>WordPress Development</li>
+                    <li>Responsive Web Design</li>
+                    <li>Git and Version Control</li>
+                    <li>API Integration</li>
+                    <li>Cross-Browser Compatibility</li>
+
+                </ul>
+            </div>
+
+            <!-- Experience Section -->
+            <div class="experience">
+                <h3 class="toggle-header" data-target="experience-content">Experience ☜</h3>
+                <ul id="experience-content" class="toggle-content">
+                    <li>
+                        <strong>Graduate Research Assistant</strong> - MEC LAB, University of Illinois Chicago, IL (Present)
+                        <p>Conducting research on emission estimation of Biogenic Volatile Organic Compounds using SMOKE Model, enhancing air quality data analysis and assisting in creating computational workflows for ongoing projects. </p>
+                    </li>
+                    <li>
+                        <strong>Marketing Graduate Hourly</strong> - Cancer Center, University of Illinois Health, IL (Part Time)
+                        <p>Developed and maintained WordPress websites, provide video editing assistance and contributed to full-stack development projects which includes in building Drug name generator website for the American Society of Clinical Oncology booth.</p>
+                    </li>
+                    <li>
+                        <strong>Software Developer Intern</strong> - Nano Kernel Limited
+                        <p>Developed a product under India Spain Bilateral Program in consultation with Indian Institute of Technology (IIT), Kanpur. Architecting the solution for a bus scheduling system, implementing and executing the process. Communicating the process and status of the product with the clients as well as timely management of the delivery of the product.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <script>
+                document.querySelectorAll('.toggle-header').forEach(header => {
+                    header.addEventListener('click', () => {
+                        const targetId = header.getAttribute('data-target');
+                        const content = document.getElementById(targetId);
+            
+                        // Toggle the active class
+                        content.classList.toggle('active');
+                    });
+                });
+            </script>
+            
+                
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/gunashree-channakeshava" target="_blank"><img src="icons/linkedin-2.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/GunashreeC" target="_blank"><img src="icons/github.png" alt="GitHub"></a>
+                    <a href="mailto:gunagowda971@gmail.com"><img src="icons/email.png" alt="Email"></a>
+                    <a href="Gunashree Channakeshava resume.pdf" target="_blank">
+                        <i class="fas fa-file-alt" title="Resume"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <p>Here you will find some of the personal and client projects that I created recently.</p>
+        
+        <!-- Project Item 1 -->
+        <div class="project-item">
+            <div class="project-image">
+                <img src="Drugname.png" alt="Project Image">
+            </div>
+            <div class="project-content">
+                <h3>Drug Name Generator</h3>
+                <p>This is a website created for the University of Illinois Cancer Center booth at the American Society of Clinical Oncology.</p>
+                <a href="https://gunashreec.github.io/DrugNameGen/" target="_blank" class="btn">Live Link</a>
+            </div>
+        </div>
+        
+         <!-- Project Item 2 -->
+         <div class="project-item">
+            <div class="project-image">
+                <img src="Medco.png" alt="Project Image">
+            </div>
+            <div class="project-content">
+                <h3>MedCo - Webapp to Simply Reports</h3>
+                <p>This is a web application designed to empower users with health issues by helping them easily view, understand their medical test reports through visualisations and provide personalised tips.</p>
+                <a href="https://github.com/GunashreeC/medco" target="_blank" class="btn">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Project Item 3 -->
+        <div class="project-item">
+            <div class="project-image">
+                <img src="ChatApp.jpg" alt="Project Image">
+            </div>
+            <div class="project-content">
+                <h3>Secure Chat App using X3DH and Double Ratcheting</h3>
+                <p>TThis is a secure chat application that utilizes the X3DH (Extended Triple Diffie-Hellman) protocol for secure key exchange and the Double Ratcheting Algorithm for end-to-end encryption.</p>
+                <a href="https://github.com/GunashreeC/signalprotocol" target="_blank" class="btn">Learn More</a>
+
+            </div>
+        </div>
+
+
+        <!-- Project Item 4 -->
+        <div class="project-item">
+            <div class="project-image">
+                <img src="TRI.png" alt="Project Image">
+            </div>
+            <div class="project-content">
+                <h3>Impact of TRI Facilities in Chicago</h3>
+                <p>This is an interactive visualization and data analysis tool designed to explore the impact of toxic releases from facilities on communities across Chicago and how they impact the schools. </p>
+                <a href="https://github.com/GunashreeC/TRI_Smoke_Simulation" target="_blank" class="btn">Learn More</a>
+
+            </div>
+        </div>
+
+        <!-- Project Item 5 -->
+        <div class="project-item">
+            <div class="project-image">
+                <img src="Viz.png" alt="Project Image">
+            </div>
+            <div class="project-content">
+                <h3>Chicago Crime Data Visualization</h3>
+                <p>The visualizations provided an interactive analysis of various factors, including temporal crime patterns, geographical crime distributions, and crime types. <br><br>
+                    Developed several visualizations using D3.js and Vega-Lite, including a bar chart depicting monthly crime statistics, an interactive time series area chart, a scatter plot with a pie chart to explore crime types, and a choropleth map displaying crime density
+                </p>
+                <a href="https://github.com/GunashreeC/Visualisation" target="_blank" class="btn">Learn More</a>
+                <a href="https://GunashreeC.github.io/Visualisation/" target="_blank" class="btn">Live Link</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="project-more">
+        <a href="https://github.com/GunashreeC/" target="_blank" class="btn center-btn">More Projects</a>
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or just want to get in touch, feel free to reach out through the form below!</p>
+            <form method="post" action="" name="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="Name" name="Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="Email" name="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="Message" name="Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxojPeY9mpx_KqSMfILtpP6pG0BnbD6I1oX8_MfBpUSeh_sOcphvruLiQn-yRtMorum/exec'
+
+    const form = document.forms['contact-form']
+    
+    form.addEventListener('submit', e => {
+      
+      e.preventDefault()
+      
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert("Thank you! Form is submitted" ))
+      .then(() => { window.location.reload(); })
+      .catch(error => console.error('Error!', error.message))
+    })</script>
+
+    <footer>
+
+        <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/gunashree-channakeshava" target="_blank"><img src="icons/linkedin-2.png" alt="LinkedIn"></a></li>
+            <li><a href="https://github.com/GunashreeC" target="_blank"><img src="icons/github.png" alt="GitHub"></a></li>
+            <li><a href="mailto:gunagowda971@gmail.com"><img src="icons/email.png" alt="Email"></a></li>
+        </ul>
+        <p>&copy; 2024 Gunashree Channakeshava. All rights reserved.</p>
+
+    </footer>
+</body>
+</html>
