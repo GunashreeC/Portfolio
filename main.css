@@ -495,8 +495,13 @@ footer .social-links li a img {
     .intro {
         color: #fff; 
     }
-    .skills{
+    
+    .skills {
         color: #fff; 
+    }
+
+    .experience {
+        color: #fff;
     }
 }
 
