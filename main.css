@@ -436,7 +436,8 @@ footer .social-links li a img {
         color: #fff;
     }
 
-    .hero {
+    .about {
+        color: #fff; /* Change text color to white */
         background: #fff
     }
 }
@@ -509,6 +510,7 @@ footer .social-links li a img {
     }
     .about {
         color: #fff; /* Change text color to white */
+        background: #fff
     }
 
     .intro {
@@ -521,10 +523,6 @@ footer .social-links li a img {
 
     .experience {
         color: #fff;
-    }
-
-    .hero {
-        background: #fff
     }
     
     .toggle-header {
