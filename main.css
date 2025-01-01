@@ -420,28 +420,28 @@ footer .social-links li a img {
     .project-content p {
         text-align: center;
     }
+    .about {
+        color: #fff; /* Change text color to white */
+        background: url('small.png') no-repeat center center/cover;
+    }
+
     .intro {
-        color: #000; 
+        color: #fff; 
     }
     
     .skills {
-        color: #000; 
+        color: #fff; 
     }
 
     .experience {
-        color: #000;
+        color: #fff;
     }
     
     .toggle-header {
-        color: #000;
+        color: #fff;
     }
+}
 
-    .about {
-        color: #000; /* Change text color to white */
-        background: #fff
-    }
-}
-}
 
 .project-more {
     display: flex;
@@ -509,24 +509,24 @@ footer .social-links li a img {
         font-size: 1rem;
     }
     .about {
-        color: #000; /* Change text color to white */
-        background: #fff
+        color: #fff; /* Change text color to white */
+        background: url('small.png') no-repeat center center/cover;
     }
 
     .intro {
-        color: #000; 
+        color: #fff; 
     }
     
     .skills {
-        color: #000; 
+        color: #fff; 
     }
 
     .experience {
-        color: #000;
+        color: #fff;
     }
     
     .toggle-header {
-        color: #000;
+        color: #fff;
     }
 }
 
