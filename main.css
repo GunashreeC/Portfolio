@@ -431,6 +431,14 @@ footer .social-links li a img {
     .experience {
         color: #fff;
     }
+    
+    .toggle-header {
+        color: #fff;
+    }
+
+    .hero {
+        background: #fff
+    }
 }
 }
 
@@ -514,6 +522,11 @@ footer .social-links li a img {
     .experience {
         color: #fff;
     }
+
+    .hero {
+        background: #fff
+    }
+    
     .toggle-header {
         color: #fff;
     }
