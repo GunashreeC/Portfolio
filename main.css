@@ -420,6 +420,18 @@ footer .social-links li a img {
     .project-content p {
         text-align: center;
     }
+    .intro {
+        color: #fff; 
+    }
+    
+    .skills {
+        color: #fff; 
+    }
+
+    .experience {
+        color: #fff;
+    }
+}
 }
 
 .project-more {
